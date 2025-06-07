@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # Bot bilgilerini buraya gir
-BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
+BOT_TOKEN = '7353388216:AAH0N_8DgQeWT1QWXmT_nhnxQn6AHi1wCPs'
 CHAT_ID = 'YOUR_CHAT_ID'
 
 @app.route('/webhook', methods=['POST'])
